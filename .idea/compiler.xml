@@ -10,6 +10,15 @@
         <module name="4-soccer-system" />
         <module name="5-pne-system" />
       </profile>
+      <profile name="Annotation profile for 7-toll-systems" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="7-toll-systems" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="1-task-unit-test" target="17" />
@@ -20,6 +29,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="1-task-unit-test" options="-parameters" />
+      <module name="7-toll-systems" options="-parameters" />
       <module name="soccer-system" options="" />
     </option>
   </component>
