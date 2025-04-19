@@ -3,20 +3,24 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for 1-task-unit-test" enabled="true">
+      <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
-        </processorPath>
-        <module name="1-task-unit-test" />
+        <module name="4-soccer-system" />
+        <module name="5-pne-system" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="1-task-unit-test" target="17" />
+      <module name="soccer-system" target="17" />
+      <module name="soccer-systems" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="1-task-unit-test" options="-parameters" />
+      <module name="soccer-system" options="" />
     </option>
   </component>
 </project>

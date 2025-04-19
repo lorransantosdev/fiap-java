@@ -5,7 +5,19 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/1-task-unit-test/pom.xml" />
+        <option value="$PROJECT_DIR$/4-womens-football-championship-management/pom.xml" />
+        <option value="$PROJECT_DIR$/4-womens-soccer-championship-management/pom.xml" />
+        <option value="$PROJECT_DIR$/soccer-systems/pom.xml" />
+        <option value="$PROJECT_DIR$/soccer-system/pom.xml" />
+        <option value="$PROJECT_DIR$/4-soccer-system/pom.xml" />
+        <option value="$PROJECT_DIR$/5-pne-system/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/4-womens-soccer-championship-management/pom.xml" />
+        <option value="$PROJECT_DIR$/soccer-systems/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
