@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="4-soccer-system" />
         <module name="5-pne-system" />
+        <module name="6-registration-and-monitoring-of-people-with-special-needs" />
       </profile>
       <profile name="Annotation profile for 7-toll-systems" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
