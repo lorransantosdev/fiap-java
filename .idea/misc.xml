@@ -18,6 +18,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/4-womens-soccer-championship-management/pom.xml" />
+        <option value="$PROJECT_DIR$/5-pne-system/pom.xml" />
         <option value="$PROJECT_DIR$/soccer-systems/pom.xml" />
       </set>
     </option>
