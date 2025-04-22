@@ -3,10 +3,10 @@ package com.example.__toll_systems.model.dto;
 import lombok.*;
 
 @Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Car {
+public class ValueAndAmount {
 
-    private String plateCar;
+    double totalValue;
+    int amount;
 }

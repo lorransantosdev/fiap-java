@@ -5,7 +5,6 @@ import lombok.*;
 import java.util.List;
 
 @Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 public class Toll {
@@ -13,7 +12,7 @@ public class Toll {
     private Integer idToll;
     private String location;
     private double baseRate;
-    private List<Car> cars;
-    private List<Motorcycle> motorcycles;
+    private List<String> cars;
+    private List<String> motorcycles;
     private List<Truck> trucks;
 }
