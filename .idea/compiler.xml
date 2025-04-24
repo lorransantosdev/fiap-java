@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="4-soccer-system" />
+        <module name="7-patient-diagnostic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
