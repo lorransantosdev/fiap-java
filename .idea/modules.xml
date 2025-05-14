@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/8-hexagonal-architecture/8-hexagonal-architecture.iml" filepath="$PROJECT_DIR$/8-hexagonal-architecture/8-hexagonal-architecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9-product-management/9-product-management.iml" filepath="$PROJECT_DIR$/9-product-management/9-product-management.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/fiap-java.iml" filepath="$PROJECT_DIR$/.idea/fiap-java.iml" />
     </modules>
   </component>

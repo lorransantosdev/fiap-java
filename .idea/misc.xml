@@ -14,12 +14,14 @@
         <option value="$PROJECT_DIR$/7-toll-systems/pom.xml" />
         <option value="$PROJECT_DIR$/6-registration-and-monitoring-of-people-with-special-needs/pom.xml" />
         <option value="$PROJECT_DIR$/7-diagnostic/pom.xml" />
+        <option value="$PROJECT_DIR$/8-hexagonal-architecture/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/4-womens-soccer-championship-management/pom.xml" />
         <option value="$PROJECT_DIR$/5-pne-system/pom.xml" />
+        <option value="$PROJECT_DIR$/8-hexagonal-architecture/pom.xml" />
         <option value="$PROJECT_DIR$/soccer-systems/pom.xml" />
       </set>
     </option>

@@ -16,6 +16,7 @@
       <module name="5-pne-system" target="17" />
       <module name="5-registration-and-monitoring-of-people-with-special-needs" target="17" />
       <module name="6-toll-systems" target="17" />
+      <module name="8-hexagonal-architecture" target="1.8" />
       <module name="soccer-system" target="17" />
       <module name="soccer-systems" target="17" />
     </bytecodeTargetLevel>
