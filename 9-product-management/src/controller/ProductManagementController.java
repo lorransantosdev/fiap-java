@@ -6,10 +6,11 @@ import java.util.Scanner;
 
 public class ProductManagementController {
     private final ProductManagementService service;
-    private Scanner scanner;
+    private final Scanner scanner;
 
     public ProductManagementController(ProductManagementService service) {
         this.service = service;
+        this.scanner = new Scanner(System.in);
     }
 
     public void Start() {

@@ -16,7 +16,7 @@ public class DiagnosticCovid extends Diagnostic {
 
         double probabilityThereIsDisease = (double) symptomsEquals.size() / commonSymptomsOfTheDisease.size() * 100;
 
-        if (probabilityThereIsDisease >= 30) {
+        if (probabilityThereIsDisease >= 10) {
             System.out.println("A probabilidade de você estar com " + disease + " é de: " +  String.format("%.2f", probabilityThereIsDisease) + "%, indico que você consulte um médico, pois os seus sintomas batem com estes: ");
             symptomsEquals.forEach(System.out::println);
         } else {
